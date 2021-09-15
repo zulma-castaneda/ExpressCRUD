@@ -22,7 +22,6 @@ class App {
     }
 
     initDatabase() {
-        // connect('mongodb+srv://AdminEndava:Endava2021@endava.yyroa.mongodb.net/Endava?retryWrites=true&w=majority')
         connect('mongodb+srv://<user>:<password>@endava.yyroa.mongodb.net/<database>?retryWrites=true&w=majority')
     }
 
