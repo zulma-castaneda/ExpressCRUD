@@ -1,6 +1,6 @@
 // Import Express server
-const App = require('./src/app')
+const App = require("./src/app");
 
-const app = new App()
+const app = new App();
 
-app.initServer(3000) 
+app.initServer(4000);
